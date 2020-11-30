@@ -84,6 +84,7 @@ class User:
                 display_name=self._display_name,
                 photo_url=self._photo_url,
                 disabled=self._disabled)
+
         except ValueError as e:
             return None, str(e)
 
